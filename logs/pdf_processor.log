@@ -1,0 +1,703 @@
+{"timestamp": "2025-08-26 16:13:56", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\东莞市安琦家居用品有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:13:56", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比90%；主营市场：美国、欧洲、中东；市场占比：美国80%，欧洲10% ，中东10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：20000㎡（东莞工厂）\n18000㎡（越南工厂）\n员工人数：东莞150名，越南80名\n年产值：1.8亿元人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "检测到 3 张二维码图片，开始拼接", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 365}
+{"timestamp": "2025-08-26 16:14:03", "level": "ERROR", "message": "图片拼接过程中发生错误: could not broadcast input array from shape (1364,1360) into shape (1364,1360,3)", "module": "SaveImg_wechat_qr", "function": "stitch_images_horizontally", "line": 137}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "从PPTX文稿中提取到 4 张图片，其中 3 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:14:03", "level": "ERROR", "message": "提取二维码失败", "module": "pptx_processor", "function": "process_pptx_file", "line": 512}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\东莞市安琦家居用品有限公司\\东莞市安琦家居用品有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "第1页处理成功，厂商：东莞市安琦家居用品有限公司/（越南爱家家居有限公司）", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\东阳九丽日用品有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:14:03", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:14:10", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:14:10", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比98%；主营市场：欧洲、日本、美国、韩国；市场占比：欧洲60%，日本30%，美国5%，韩国5%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:10", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：3000㎡；员工人数：30名员工；年产值：1500万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:10", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:14:10", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:14:10", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:14:11", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\东阳九丽日用品有限公司\\wechat_qr_be25dc8d6c614fadbbabdf050110d31d.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:14:11", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:14:11", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\东阳九丽日用品有限公司\\东阳九丽日用品有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:14:11", "level": "INFO", "message": "第1页处理成功，厂商：东阳九丽日用品有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:14:11", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:14:11", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\中山市德浦照明灯饰有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:14:11", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：欧洲、北美、日本、澳大利亚；市场占比：欧洲40%，北美洲35%，日本和澳大利亚共占比25%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：10000㎡；员工人数：200名员工；年产值：1.5亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\中山市德浦照明灯饰有限公司\\wechat_qr_2cb7e5535eb04da884000b2097513b99.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\中山市德浦照明灯饰有限公司\\中山市德浦照明灯饰有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "第1页处理成功，厂商：中山市德浦照明灯饰有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\临海市亿沃灯饰有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:14:18", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：欧美、俄罗斯、墨西哥；市场占比：欧美50% ，俄罗斯和墨西哥共50%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：12000㎡\n员工人数：50名员工\n年产值：5000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\临海市亿沃灯饰有限公司\\wechat_qr_a0a4e68e1eac4c1683dc655189f01460.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\临海市亿沃灯饰有限公司\\临海市亿沃灯饰有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "第1页处理成功，厂商：临海市亿沃灯饰有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\临海市新太灯饰有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:14:24", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比50%(亚马逊30%)；主营市场：欧洲、美国、俄罗斯；市场占比：欧洲60% ，美国30%，俄罗斯10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：2000㎡；员工人数：45名员工；年产值：3000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\临海市新太灯饰有限公司\\wechat_qr_30844dc187b345fbab963628e44f500f.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\临海市新太灯饰有限公司\\临海市新太灯饰有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "第1页处理成功，厂商：临海市新太灯饰有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\义乌市东鑫纸制品有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:14:32", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比90%；主营市场：欧洲、美国；市场占比：欧洲60%，美国20%，其他20%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：3300㎡；员工人数：50名员工；年产值：3000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\义乌市东鑫纸制品有限公司\\wechat_qr_08b3e28d229a455d8ee33db9d61aa4e6.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\义乌市东鑫纸制品有限公司\\义乌市东鑫纸制品有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "第1页处理成功，厂商：义乌市东鑫纸制品有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\义乌市仁创包装有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:14:39", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比70%；主营市场：欧洲、美国；市场占比：欧洲60%，美国30%，其他10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：3000㎡；员工人数：36名员工；年产值：1350万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\义乌市仁创包装有限公司\\wechat_qr_d6e8fbe26522465eb5276de5e6304afc.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\义乌市仁创包装有限公司\\义乌市仁创包装有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "第1页处理成功，厂商：义乌市仁创包装有限公司/（金华市仁创优品包装制品有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\义乌市众美包装有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:14:45", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比50%；主营市场：美国、欧洲、非洲；市场占比：美国70%，欧洲20%，非洲10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：3100㎡；员工人数：55名；年产值：1400万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\义乌市众美包装有限公司\\wechat_qr_53e407b4f6d94da3a14f916445dae2f7.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\义乌市众美包装有限公司\\义乌市众美包装有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "第1页处理成功，厂商：义乌市众美包装有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\义乌市凯盛玩具有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:14:50", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比80%；主营市场：南美、欧洲、东南亚、中东、美国；市场占比：南美30%，欧洲20%，东南亚15%，中东10%，美国5%(亚马逊)", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：4000㎡；员工人数：20名员工；年产值：800万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\义乌市凯盛玩具有限公司\\wechat_qr_e7010775dfd2433d9860f6d67b559e9a.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\义乌市凯盛玩具有限公司\\义乌市凯盛玩具有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "第1页处理成功，厂商：义乌市凯盛玩具有限公司              （云和县天才虎玩具有限公司）", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\义乌市升华印刷有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:14:56", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：欧洲、日韩、东南亚；市场占比：欧洲40%，日韩30%，东南亚30%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：50000㎡\n员工人数：280名\n年产值：1亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\义乌市升华印刷有限公司\\wechat_qr_7952df386fb6404e99b53f359ae0950c.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\义乌市升华印刷有限公司\\义乌市升华印刷有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "第1页处理成功，厂商：义乌市升华印刷有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\义乌市百变电子科技有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:15:02", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：中东，南美，俄罗斯，欧洲，美国；市场占比：中东40%，南美30%，俄罗斯10%，欧洲10%，美国5%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：20000㎡\n员工人数：320名员工\n年产值：1.5亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\义乌市百变电子科技有限公司\\wechat_qr_493e326762964540aa67c8c8fb0502f9.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\义乌市百变电子科技有限公司\\义乌市百变电子科技有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "第1页处理成功，厂商：义乌市百变电子科技有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\义乌市艾琳文化用品有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:15:10", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比95%；主营市场：美国、欧洲；市场占比：美国60%，欧洲40%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：1200㎡；员工人数：50名；年产值：800万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\义乌市艾琳文化用品有限公司\\wechat_qr_ed650b1a8b0843b385bcd2f552d859a7.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\义乌市艾琳文化用品有限公司\\义乌市艾琳文化用品有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "第1页处理成功，厂商：义乌市艾琳文化用品有限公司/（金华市星欣文化用品有限公司）", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\义乌市芊喜纸制品有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:15:15", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比80%；主营市场：欧洲、美洲、非洲；市场占比：欧洲60％，美洲35％，非洲5％", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：8300㎡；员工人数：70名员工；年产值：5000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\义乌市芊喜纸制品有限公司\\wechat_qr_743473cda1194d8fa12a1358b4b6376f.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\义乌市芊喜纸制品有限公司\\义乌市芊喜纸制品有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "第1页处理成功，厂商：义乌市芊喜纸制品有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\义乌市越宇纸袋有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:15:22", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：美国、俄罗斯、欧洲；市场占比：美国70%，俄罗斯15%，欧洲15%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：6000㎡(义乌工厂)；5700㎡(越南工厂，在平阳省)；员工人数：70名(义乌工厂)，80名(越南工厂)；年产值：5000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\义乌市越宇纸袋有限公司\\wechat_qr_6729d155e0234461a1d0f2ad249f07c1.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\义乌市越宇纸袋有限公司\\义乌市越宇纸袋有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "第1页处理成功，厂商：义乌市越宇纸袋有限公司              （越南工厂：越南明宇纸袋有限公司）", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\仙居县银泰礼品厂.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:15:29", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：欧洲、美国；市场占比：欧洲90%，美国10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：28000㎡\n员工人数：130名员工\n年产值：5000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\仙居县银泰礼品厂\\wechat_qr_587fdace8e5a4468b048e7d8c7f724f6.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\仙居县银泰礼品厂\\仙居县银泰礼品厂_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "第1页处理成功，厂商：仙居县银泰礼品厂", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\余姚市占凯电器有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:15:37", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：美国、欧洲；市场占比：美国20%，英国20%，丹麦20%，德国15%，荷兰15%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：15000㎡；员工人数：320名员工；年产值：1.5亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\余姚市占凯电器有限公司\\wechat_qr_703faaf1a4064177b377fce9e6dc9493.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\余姚市占凯电器有限公司\\余姚市占凯电器有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "第1页处理成功，厂商：余姚市占凯电器有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\台州市丰利莱科技股份有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:15:44", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比75%；主营市场：欧洲，美国，亚洲；市场占比：欧洲45%，美国25%，亚洲20%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "字段更新: 备注 -> 其他10% 工厂面积：30000㎡ 员工人数：200名员工 年产值：1200万美元", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\台州市丰利莱科技股份有限公司\\wechat_qr_33e1080f4d9e48edb2aeebf1d456936c.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\台州市丰利莱科技股份有限公司\\台州市丰利莱科技股份有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "第1页处理成功，厂商：台州市丰利莱科技股份有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\台州市明朗照明有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:15:51", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:15:56", "level": "INFO", "message": "第2次结果与第1次结果在字段 '主销市场' 上不一致", "module": "outmodel_results_validator", "function": "compare_results", "line": 114}
+{"timestamp": "2025-08-26 16:15:56", "level": "INFO", "message": "模型输出验证失败", "module": "outmodel_results_validator", "function": "validate_and_get_result", "line": 145}
+{"timestamp": "2025-08-26 16:15:56", "level": "INFO", "message": "第2次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:16:02", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:16:02", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比50%；主营市场：德国；市场占比：德国80%，其他20%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:02", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：19134.48㎡\n员工人数：65名员工\n年产值：6000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:02", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:16:02", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:16:02", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:16:03", "level": "INFO", "message": "检测到 2 张二维码图片，开始拼接", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 365}
+{"timestamp": "2025-08-26 16:16:03", "level": "INFO", "message": "图片拼接成功", "module": "SaveImg_wechat_qr", "function": "stitch_images_horizontally", "line": 133}
+{"timestamp": "2025-08-26 16:16:03", "level": "INFO", "message": "拼接后的二维码图片已保存: data\\processed_data\\ppt\\浙江安瑞工贸有限公司\\wechat_qr_8c4b50c92c2341198089335453712ece.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 378}
+{"timestamp": "2025-08-26 16:16:03", "level": "INFO", "message": "从PPTX文稿中提取到 3 张图片，其中 2 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:16:03", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\浙江安瑞工贸有限公司\\浙江安瑞工贸有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:16:03", "level": "INFO", "message": "第1页处理成功，厂商：浙江安瑞工贸有限公司/（台州市明朗照明有限公司）", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:16:03", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:16:03", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\台州市黄岩科伦塑胶有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:16:03", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：美国、欧洲、南美；市场占比：美国50%，欧洲30%，南美10%，其他国家10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：10000㎡员工人数： 60名年产值：3000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "检测到 2 张二维码图片，开始拼接", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 365}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "图片拼接成功", "module": "SaveImg_wechat_qr", "function": "stitch_images_horizontally", "line": 133}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "拼接后的二维码图片已保存: data\\processed_data\\ppt\\台州市黄岩科伦塑胶有限公司\\wechat_qr_5a884284156f4872b43d1409af05e77d.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 378}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "从PPTX文稿中提取到 3 张图片，其中 2 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\台州市黄岩科伦塑胶有限公司\\台州市黄岩科伦塑胶有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "第1页处理成功，厂商：台州市黄岩科伦塑胶有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\天长市春晓工艺制品有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:16:10", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比90%；主营市场：美国，欧洲，俄罗斯；市场占比：美国40%，欧洲30%，俄罗斯20%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：4000㎡；员工人数：150名员工；年产值：2000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\天长市春晓工艺制品有限公司\\wechat_qr_bc6e46ed278b4b14afcfd089bcbaea37.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\天长市春晓工艺制品有限公司\\天长市春晓工艺制品有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "第1页处理成功，厂商：天长市春晓工艺制品有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁波君贝工艺品有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:16:16", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:16:21", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:16:21", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：美国、欧洲、中东；市场占比：美国占比70%，欧洲10%，中东10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:21", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：9927㎡\n员工人数：20名员工\n年产值：2000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:21", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:16:21", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:16:21", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:16:22", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\宁波君贝工艺品有限公司\\wechat_qr_5edbe67081fe4e9eb4f5480cf42113d1.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:16:22", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:16:22", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\宁波君贝工艺品有限公司\\宁波君贝工艺品有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:16:22", "level": "INFO", "message": "第1页处理成功，厂商：宁波君贝工艺品有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:16:22", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:16:22", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁波宇晓塑业科技有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:16:22", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比60%；主营市场：美国、欧洲、中东；市场占比：美国70%，欧洲20%，中东10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积： 9000㎡；员工人数： 60名；年产值： 6000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\宁波宇晓塑业科技有限公司\\wechat_qr_8c11e691d52846089b1a328373812aaa.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\宁波宇晓塑业科技有限公司\\宁波宇晓塑业科技有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "第1页处理成功，厂商：宁波宇晓塑业科技有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁波市本美日用品有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:16:27", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:16:38", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:16:38", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比90%；主营市场：欧洲、美国、俄罗斯；市场占比：欧洲50%，美国20%，俄罗斯10%，其他20%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:38", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：6000㎡ 员工人数：85名员工 年产值：6000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:38", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:16:38", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:16:38", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:16:39", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\宁波市本美日用品有限公司\\wechat_qr_405b14cbc2134c6aa9b1d30c99f5c662.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:16:39", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:16:39", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\宁波市本美日用品有限公司\\宁波市本美日用品有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:16:39", "level": "INFO", "message": "第1页处理成功，厂商：宁波市本美日用品有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:16:39", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:16:39", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁波市海曙帮顺工艺品有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:16:39", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：美国、欧洲；市场占比：美国60%，欧洲40%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积： 4000㎡；员工人数： 35名；年产值： 1500万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "检测到 2 张二维码图片，开始拼接", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 365}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "图片拼接成功", "module": "SaveImg_wechat_qr", "function": "stitch_images_horizontally", "line": 133}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "拼接后的二维码图片已保存: data\\processed_data\\ppt\\宁波市海曙帮顺工艺品有限公司\\wechat_qr_2cacb3fceeae4c18ac7b2a905f9a6e90.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 378}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "从PPTX文稿中提取到 3 张图片，其中 2 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\宁波市海曙帮顺工艺品有限公司\\宁波市海曙帮顺工艺品有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "第1页处理成功，厂商：宁波市海曙帮顺工艺品有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁波盛麟电器有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:16:43", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:16:49", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:16:49", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：美国、欧洲；市场占比：美国70%，欧洲30%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:49", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：30000㎡；员工人数：260名员工；年产值：1亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:49", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:16:49", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:16:49", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:16:50", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\宁波盛麟电器有限公司\\wechat_qr_6d2369b16d9746c7993829b8b16a7cad.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:16:50", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:16:50", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\宁波盛麟电器有限公司\\宁波盛麟电器有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:16:50", "level": "INFO", "message": "第1页处理成功，厂商：宁波盛麟电器有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:16:50", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:16:50", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁波神宇医疗器械有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:16:50", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比90%；主营市场：美国，欧洲；市场占比：美国65%，欧洲和其他占比35%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：30000㎡\n员工人数：270名员工\n年产值：1.5亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "检测到 2 张二维码图片，开始拼接", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 365}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "图片拼接成功", "module": "SaveImg_wechat_qr", "function": "stitch_images_horizontally", "line": 133}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "拼接后的二维码图片已保存: data\\processed_data\\ppt\\宁波神宇医疗器械有限公司\\wechat_qr_732241e1521b4f119b227c816838cc4c.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 378}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "从PPTX文稿中提取到 3 张图片，其中 2 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\宁波神宇医疗器械有限公司\\宁波神宇医疗器械有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "第1页处理成功，厂商：宁波神宇医疗器械有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁波阿斯顿光电科技有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:16:56", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:17:02", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:17:02", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比90%；主营市场：北美、欧洲；市场占比：北美60%，欧洲30%，其他10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:02", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：12000㎡\n员工人数：80名员工\n年产值：8000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:02", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:17:02", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:17:02", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:17:03", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\宁波阿斯顿光电科技有限公司\\wechat_qr_05dda42b8ae44db69cc956a56df15fdc.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:17:03", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:17:03", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\宁波阿斯顿光电科技有限公司\\宁波阿斯顿光电科技有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:17:03", "level": "INFO", "message": "第1页处理成功，厂商：宁波阿斯顿光电科技有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:17:03", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:17:03", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁海勃锐特电器有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:17:03", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:17:08", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:17:08", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比90%；主营市场：美国、欧洲、日韩；市场占比：美国40%，欧洲35%，日韩15%，其他10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:08", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：5200㎡；员工人数：50名员工；年产值：3500万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:08", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:17:08", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:17:08", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:17:08", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\宁海勃锐特电器有限公司\\wechat_qr_5b89fe9642454036b9f11088c64f3089.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:17:08", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:17:09", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\宁海勃锐特电器有限公司\\宁海勃锐特电器有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:17:09", "level": "INFO", "message": "第1页处理成功，厂商：宁海勃锐特电器有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:17:09", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:17:09", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁海县达鑫家居用品有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:17:09", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:17:14", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:17:14", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：欧美，俄罗斯；市场占比：欧美80%，俄罗斯20%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:14", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：2600㎡；员工人数：20名员工；年产值：1380万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:14", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:17:14", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:17:14", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:17:15", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\宁海县达鑫家居用品有限公司\\wechat_qr_bca4e544e5f44292bff9f5a6ee73a501.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:17:15", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:17:15", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\宁海县达鑫家居用品有限公司\\宁海县达鑫家居用品有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:17:15", "level": "INFO", "message": "第1页处理成功，厂商：宁海县达鑫家居用品有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:17:15", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:17:15", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁海飞乐塑业有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:17:15", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比60%；主营市场：美国，欧洲；市场占比：美国40%，欧洲30%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：6000㎡；员工人数：15名员工；年产值：2000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\宁海飞乐塑业有限公司\\wechat_qr_bff1f42e82414b66b0c339b26b456692.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\宁海飞乐塑业有限公司\\宁海飞乐塑业有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "第1页处理成功，厂商：宁海飞乐塑业有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\安徽松冠新材料科技有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:17:22", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比40%；主营市场：欧洲、美洲、日本；市场占比：欧洲40%，美洲30%，日本30%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：14000㎡\n员工人数：122名\n年产值：9400万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "检测到 2 张二维码图片，开始拼接", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 365}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "图片拼接成功", "module": "SaveImg_wechat_qr", "function": "stitch_images_horizontally", "line": 133}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "拼接后的二维码图片已保存: data\\processed_data\\ppt\\安徽松冠新材料科技有限公司\\wechat_qr_eac9a87f7d9e47468abf69d83e31f86b.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 378}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "从PPTX文稿中提取到 3 张图片，其中 2 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\安徽松冠新材料科技有限公司\\安徽松冠新材料科技有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "第1页处理成功，厂商：安徽松冠新材料科技有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\广东鸿祺玩具实业有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:17:28", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比40%；主营市场：俄罗斯、东南亚、欧洲、美国；市场占比：俄罗斯40%，东南亚30%，欧洲20%，美国10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：15000㎡；员工人数：200名员工；年产值：1亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\广东鸿祺玩具实业有限公司\\wechat_qr_6a196fff1b2b4e3795cecca75f942e2c.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\广东鸿祺玩具实业有限公司\\广东鸿祺玩具实业有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "第1页处理成功，厂商：广东鸿祺玩具实业有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\广西世昌新材料有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:17:36", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比90%；主营市场：欧美，日韩；市场占比：欧美80%，日韩10%，其他10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：8000㎡\n员工人数：32名员工\n年产值：2300万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\广西世昌新材料有限公司\\wechat_qr_98cc911380894f8f973de3fe695cf13e.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\广西世昌新材料有限公司\\广西世昌新材料有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "第1页处理成功，厂商：广西世昌新材料有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\慈溪市迁耀水暖洁具厂.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:17:43", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比50%；主营市场：日韩；市场占比：日韩80%，其他20%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：20000㎡员工人数：158名员工年产值：1.1亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\慈溪市迁耀水暖洁具厂\\wechat_qr_15b2e7e51478402c9cb29fd63899247a.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\慈溪市迁耀水暖洁具厂\\慈溪市迁耀水暖洁具厂_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "第1页处理成功，厂商：慈溪市迁耀水暖洁具厂", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\新昌县中柱塑业有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:17:48", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比60%；主营市场：美国、欧洲；市场占比：美国50%，欧洲40%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：1500㎡；员工人数： 20名；年产值：300万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\新昌县中柱塑业有限公司\\wechat_qr_2d977a7f162c4cc2908bd5e96004f6c7.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\新昌县中柱塑业有限公司\\新昌县中柱塑业有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "第1页处理成功，厂商：新昌县中柱塑业有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\昆山市金贝琪彩色印务有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:17:57", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比65%；主营市场：欧美；市场占比：欧美90%，其他10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：18000㎡\n员工人数：170名员工\n年产值：1.2亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\昆山市金贝琪彩色印务有限公司\\wechat_qr_dd98c6f525b148b995fedf2ac100c973.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\昆山市金贝琪彩色印务有限公司\\昆山市金贝琪彩色印务有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "第1页处理成功，厂商：昆山市金贝琪彩色印务有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\杭州临安柏盛印刷技术有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:18:04", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比60%；主营市场：欧洲、美国；市场占比：欧洲70%，美国30%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：12000㎡；员工人数：120名；年产值：8000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\杭州临安柏盛印刷技术有限公司\\wechat_qr_47f4f73395ae4a5ea68866045fc5df98.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\杭州临安柏盛印刷技术有限公司\\杭州临安柏盛印刷技术有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "第1页处理成功，厂商：杭州临安柏盛印刷技术有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\汕头市澄海区伟诚玩具有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:18:14", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比75%；主营市场：美国、欧洲、俄罗斯、南美、东南亚；市场占比：美国25%，欧洲20%，俄罗斯15%，东南亚15%，南美10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：5000㎡；员工人数：100名员工；年产值：3000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\汕头市澄海区伟诚玩具有限公司\\wechat_qr_7ce2165923474e7eb705975224dd748a.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\汕头市澄海区伟诚玩具有限公司\\汕头市澄海区伟诚玩具有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "第1页处理成功，厂商：汕头市澄海区伟诚玩具有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\汕头市澄海区华驰玩具厂.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:18:25", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:18:34", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:18:34", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比90%；主营市场：欧洲，美国，东南亚，中东，南美；市场占比：欧洲占比30%，美国20%，东南亚20%，中东10%，南美10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:34", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：16000㎡；员工人数：120名员工；年产值：6000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:34", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:18:34", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:18:34", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:18:35", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\汕头市澄海区华驰玩具厂\\wechat_qr_fa6b12261ebd446e85410146b56f7bdf.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:18:35", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:18:35", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\汕头市澄海区华驰玩具厂\\汕头市澄海区华驰玩具厂_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:18:35", "level": "INFO", "message": "第1页处理成功，厂商：汕头市澄海区华驰玩具厂", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:18:35", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:18:35", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\汕头市澄海区善意玩具有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:18:35", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:18:43", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:18:43", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：俄罗斯、欧洲、美国、中东；市场占比：俄罗斯50%，欧洲20%，美国20%，中东10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:43", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：2000㎡员工人数：20名员工年产值：2400万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:43", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:18:43", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:18:43", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:18:44", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\汕头市澄海区善意玩具有限公司\\wechat_qr_a1e70c798368490d9d33549673e04019.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:18:44", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:18:44", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\汕头市澄海区善意玩具有限公司\\汕头市澄海区善意玩具有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:18:44", "level": "INFO", "message": "第1页处理成功，厂商：汕头市澄海区善意玩具有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:18:44", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:18:44", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\江苏苏雅新材料科技有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:18:44", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比90%；主营市场：中东、欧洲、印度、美国；市场占比：中东50% ，欧洲15%，印度 15%，美国 10%，其他 10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：6000㎡；员工人数：50名；年产值：5000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "检测到 2 张二维码图片，开始拼接", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 365}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "图片拼接成功", "module": "SaveImg_wechat_qr", "function": "stitch_images_horizontally", "line": 133}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "拼接后的二维码图片已保存: data\\processed_data\\ppt\\江苏苏雅新材料科技有限公司\\wechat_qr_805e2d9ce14c45dab09b1834605ce929.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 378}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "从PPTX文稿中提取到 3 张图片，其中 2 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\江苏苏雅新材料科技有限公司\\江苏苏雅新材料科技有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "第1页处理成功，厂商：江苏苏雅新材料科技有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\浙江何升工具股份有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:18:49", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比80%；主营市场：欧洲、美国；市场占比：欧洲65%，美国15%，其他25%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：土地面积10107.1平方米，建筑面积23843.78平方米。员工人数：135名员工。年产值：6500万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\浙江何升工具股份有限公司\\wechat_qr_ad246309612c4cdebfa64a65e41f0448.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\浙江何升工具股份有限公司\\浙江何升工具股份有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "第1页处理成功，厂商：浙江何升工具股份有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\浙江兆源科技有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:18:57", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比65%；主营市场：美国、欧洲、中东、南美；市场占比：美国60%，欧洲25%，中东和南美5%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：39000㎡员工人数：387名员工年产值：1.8亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\浙江兆源科技有限公司\\wechat_qr_b34f62ba4ace4eef96454d4c56122096.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\浙江兆源科技有限公司\\浙江兆源科技有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "第1页处理成功，厂商：浙江兆源科技有限公司/（浙江树源文具有限公司）", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\浙江华旭实业有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:19:03", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比80%；主营市场：欧洲、美国、南美洲、澳洲；市场占比：欧洲70%，美国15%，南美洲10%，澳洲5%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：占比总面积15000㎡，建筑总面积43000㎡；员工人数：500名；年产值：2.2亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\浙江华旭实业有限公司\\wechat_qr_b9a6b20325034dc18f7005846ba598a4.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\浙江华旭实业有限公司\\浙江华旭实业有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "第1页处理成功，厂商：浙江华旭实业有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\浙江格利方工贸有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:19:10", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比30%；主营市场：欧洲、中东、美国、南美、东南亚；市场占比：欧洲34%，中东28%，美国16%，南美11%，东南亚11%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：10000㎡；员工人数： 180名；年产值：5000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\浙江格利方工贸有限公司\\wechat_qr_ca4cb70608f44184bfee9e5218f1bbaf.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\浙江格利方工贸有限公司\\浙江格利方工贸有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "第1页处理成功，厂商：浙江格利方工贸有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\浙江迪美智能科技股份有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:19:17", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比70%；主营市场：欧洲，美国，东南亚，日韩；市场占比：欧洲60%，美国30%，东南亚和日韩共占比10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：12000㎡；员工人数：100-150名员工；年产值：5000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\浙江迪美智能科技股份有限公司\\wechat_qr_8fc205ebbf074f919bbb6b8cf093d48d.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\浙江迪美智能科技股份有限公司\\浙江迪美智能科技股份有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "第1页处理成功，厂商：浙江迪美智能科技股份有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\海宁市中元塑胶有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:19:24", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：美国、加拿大；市场占比：美国、加拿大共95%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：中国60000㎡，泰国20000㎡。员工人数：300名员工。年产值：2.5亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\海宁市中元塑胶有限公司\\wechat_qr_bc336f327e7844eba19afec44c60372f.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\海宁市中元塑胶有限公司\\海宁市中元塑胶有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "第1页处理成功，厂商：海宁市中元塑胶有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\温州市旗鑫科技有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:19:31", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:19:38", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:19:38", "level": "INFO", "message": "字段更新: 主销市场 -> 东南亚、俄罗斯、加拿大、墨西哥；东南亚40%，俄罗斯30%，加拿大10%，墨西哥10%，其他10%；外贸占比：外贸占比85%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:38", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：6000㎡；员工人数：125名；年产值：8000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:38", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:19:38", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:19:38", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:19:39", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\温州市旗鑫科技有限公司\\wechat_qr_d55b531ea1914a718e4f38461e2a3304.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:19:39", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:19:39", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\温州市旗鑫科技有限公司\\温州市旗鑫科技有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:19:39", "level": "INFO", "message": "第1页处理成功，厂商：温州市旗鑫科技有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:19:39", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:19:39", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\绍兴笨鸟摄影器材有限公司(2).pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:19:39", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比60%；主营市场：欧洲、美国、中东、南美；市场占比：欧洲30%，美国15%，中东10%，南美5%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：6700㎡ 员工人数： 57名 年产值： 5000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\绍兴笨鸟摄影器材有限公司\\wechat_qr_9b74d329021b4cde89c7bdbb7cfa5daa.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\绍兴笨鸟摄影器材有限公司\\绍兴笨鸟摄影器材有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "第1页处理成功，厂商：绍兴笨鸟摄影器材有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\苍南露希清洁用品有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-26 16:19:46", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:19:55", "level": "INFO", "message": "第2次结果与第1次结果在字段 '主销市场' 上不一致", "module": "outmodel_results_validator", "function": "compare_results", "line": 114}
+{"timestamp": "2025-08-26 16:19:55", "level": "INFO", "message": "模型输出验证失败", "module": "outmodel_results_validator", "function": "validate_and_get_result", "line": 145}
+{"timestamp": "2025-08-26 16:19:55", "level": "INFO", "message": "第2次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-26 16:20:03", "level": "ERROR", "message": "", "module": "http_request", "function": "_handle_request", "line": 304}
+{"timestamp": "2025-08-27 11:22:38", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁波D58-2025.07.02\\宁波君贝工艺品有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-27 11:22:38", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-27 11:22:44", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-27 11:22:44", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比100%；主营市场：美国、欧洲、中东；市场占比：美国占比70%，欧洲10%，中东10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-27 11:22:44", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：9927㎡；员工人数：20名员工；年产值：2000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-27 11:22:44", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-27 11:22:44", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-27 11:22:44", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-27 11:22:45", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\宁波君贝工艺品有限公司_2\\wechat_qr_d6601b8609024a249b21a33882100ac6.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-27 11:22:45", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-27 11:22:45", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\宁波君贝工艺品有限公司_2\\宁波君贝工艺品有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-27 11:22:45", "level": "INFO", "message": "第1页处理成功，厂商：宁波君贝工艺品有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-27 11:22:45", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-27 11:22:45", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁波D58-2025.07.02\\宁海飞乐塑业有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-27 11:22:45", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：外贸占比60%；主营市场：美国，欧洲；市场占比：美国40%，欧洲30%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：6000㎡ 员工人数：15名员工 年产值：2000万人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\宁海飞乐塑业有限公司_2\\wechat_qr_c97542d2fcf148309890ba69b9b3c46e.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\宁海飞乐塑业有限公司_2\\宁海飞乐塑业有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "第1页处理成功，厂商：宁海飞乐塑业有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "开始解析PPTX文件: data\\input_data\\ppt\\宁波D58-2025.07.02\\广东鸿祺玩具实业有限公司.pptx", "module": "pptx_processor", "function": "extract_text_from_pptx", "line": 216}
+{"timestamp": "2025-08-27 11:22:51", "level": "INFO", "message": "第1次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-27 11:22:57", "level": "INFO", "message": "第2次结果与第1次结果在字段 '主销市场' 上不一致", "module": "outmodel_results_validator", "function": "compare_results", "line": 114}
+{"timestamp": "2025-08-27 11:22:57", "level": "INFO", "message": "模型输出验证失败", "module": "outmodel_results_validator", "function": "validate_and_get_result", "line": 145}
+{"timestamp": "2025-08-27 11:22:57", "level": "INFO", "message": "第2次调用模型解析备注字段...", "module": "pptx_processor", "function": "extract_info_remarks", "line": 385}
+{"timestamp": "2025-08-27 11:23:04", "level": "INFO", "message": "2次模型输出文本内容一致，验证通过", "module": "outmodel_results_validator", "function": "compare_results", "line": 117}
+{"timestamp": "2025-08-27 11:23:04", "level": "INFO", "message": "字段更新: 主销市场 -> 外贸占比：40%；主营市场：俄罗斯、东南亚、欧洲、美国；市场占比：俄罗斯40%，东南亚30%，欧洲20%，美国10%", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-27 11:23:04", "level": "INFO", "message": "字段更新: 备注 -> 工厂面积：15000㎡ 员工人数：200名员工 年产值：1亿人民币", "module": "pptx_processor", "function": "extract_info_remarks", "line": 428}
+{"timestamp": "2025-08-27 11:23:04", "level": "INFO", "message": "第 1 页处理完成", "module": "pptx_processor", "function": "process_pptx_file", "line": 481}
+{"timestamp": "2025-08-27 11:23:04", "level": "INFO", "message": "PPTX文件处理完成，共处理 1 页", "module": "pptx_processor", "function": "process_pptx_file", "line": 485}
+{"timestamp": "2025-08-27 11:23:04", "level": "INFO", "message": "只处理第 1 张幻灯片", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 321}
+{"timestamp": "2025-08-27 11:23:04", "level": "INFO", "message": "单张二维码图片已保存: data\\processed_data\\ppt\\广东鸿祺玩具实业有限公司_2\\wechat_qr_7cf8e38f0def4088b72d3fdc72036680.png", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 391}
+{"timestamp": "2025-08-27 11:23:04", "level": "INFO", "message": "从PPTX文稿中提取到 2 张图片，其中 1 张是微信二维码", "module": "SaveImg_wechat_qr", "function": "extract_images_from_pptx", "line": 394}
+{"timestamp": "2025-08-27 11:23:04", "level": "INFO", "message": "厂商信息json已保存到: data\\processed_data\\ppt\\广东鸿祺玩具实业有限公司_2\\广东鸿祺玩具实业有限公司_信息.json", "module": "save_result_to_json", "function": "save_result_to_vendor_folder", "line": 107}
+{"timestamp": "2025-08-27 11:23:04", "level": "INFO", "message": "第1页处理成功，厂商：广东鸿祺玩具实业有限公司", "module": "pptx_processor", "function": "process_pptx_file", "line": 519}
+{"timestamp": "2025-08-27 11:23:04", "level": "INFO", "message": "PPTX文件处理完成，成功处理1页", "module": "pptx_processor", "function": "process_pptx_file", "line": 524}
+{"timestamp": "2025-08-27 11:23:04", "level": "INFO", "message": "PPT文档处理完成: 总数：3个, 成功：3个, 失败：0个", "module": "cycle_file", "function": "module_ppt", "line": 115}
